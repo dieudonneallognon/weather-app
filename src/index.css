@@ -6,13 +6,21 @@
 
 body {
   font-family: "verdana", "sans-serif";
+  margin: 0 37%;
+}
+
+@media all and (max-device-width: 480px) {
+  body {
+    font-family: "verdana", "sans-serif";
+    margin: 0% 0%;
+  }
 }
 
 .app {
   background-image: url("./assets/cold.jpg");
   background-size: cover;
   background-position: bottom;
-  transition: 0.7s ease-out;
+  transition: 1.5s ease-out;
 }
 
 .app.warm {
