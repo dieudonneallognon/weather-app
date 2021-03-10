@@ -9,10 +9,10 @@ body {
   margin: 0 37%;
 }
 
-@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 1024px) {
   body {
     font-family: "verdana", "sans-serif";
-    margin: 0% 0%;
+    margin: 1% 1%;
   }
 }
 
