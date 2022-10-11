@@ -38,6 +38,7 @@ main {
     rgba(0, 0, 0.75)
   );
   padding: 25px;
+  height: 100vh;
 }
 
 .search-box {
